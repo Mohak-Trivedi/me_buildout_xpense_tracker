@@ -39,7 +39,7 @@
       "numTestsKeptInMemory": 0,
       "platform": "linux",
       "pageLoadTimeout": 60000,
-      "port": 34063,
+      "port": 41099,
       "projectId": null,
       "redirectionLimit": 20,
       "reporter": "spec",
@@ -89,7 +89,7 @@
       "cypressInternalEnv": "production"
     },
     "cypressVersion": "13.13.1",
-    "endedTestsAt": "2024-07-21T19:39:48.111Z",
+    "endedTestsAt": "2024-07-21T20:24:40.126Z",
     "osName": "linux",
     "osVersion": "Ubuntu - ",
     "runs": [
@@ -98,30 +98,15 @@
         "reporter": "spec",
         "reporterStats": {
           "suites": 2,
-          "tests": 2,
-          "passes": 0,
+          "tests": 5,
+          "passes": 5,
           "pending": 0,
-          "failures": 2,
-          "start": "2024-07-21T19:39:46.532Z",
-          "end": "2024-07-21T19:39:48.117Z",
-          "duration": 1585
+          "failures": 0,
+          "start": "2024-07-21T20:24:30.258Z",
+          "end": "2024-07-21T20:24:40.130Z",
+          "duration": 9872
         },
-        "screenshots": [
-          {
-            "height": 720,
-            "name": null,
-            "path": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/screenshots/spec.cy.js/LandingPageForm Initial State Tests -- should display initial state correctly -- before each hook (failed).png",
-            "takenAt": "2024-07-21T19:39:47.122Z",
-            "width": 1280
-          },
-          {
-            "height": 720,
-            "name": null,
-            "path": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/screenshots/spec.cy.js/ExpenseForm -- should render the form -- before each hook (failed).png",
-            "takenAt": "2024-07-21T19:39:47.960Z",
-            "width": 1280
-          }
-        ],
+        "screenshots": [],
         "spec": {
           "absolute": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/e2e/spec.cy.js",
           "fileExtension": ".js",
@@ -130,13 +115,13 @@
           "relative": "cypress/e2e/spec.cy.js"
         },
         "stats": {
-          "duration": 1585,
-          "endedAt": "2024-07-21T19:39:48.111Z",
-          "failures": 2,
-          "passes": 0,
+          "duration": 9874,
+          "endedAt": "2024-07-21T20:24:40.126Z",
+          "failures": 0,
+          "passes": 5,
           "pending": 0,
-          "skipped": 3,
-          "startedAt": "2024-07-21T19:39:46.526Z",
+          "skipped": 0,
+          "startedAt": "2024-07-21T20:24:30.252Z",
           "suites": 2,
           "tests": 5
         },
@@ -144,12 +129,12 @@
           {
             "attempts": [
               {
-                "state": "failed"
+                "state": "passed"
               }
             ],
-            "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://localhost:3000/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ECONNREFUSED 127.0.0.1:3000\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `LandingPageForm Initial Sta...`\n    at <unknown> (http://localhost:34063/__cypress/runner/cypress_runner.js:131916:74)\n    at visitFailedByErr (http://localhost:34063/__cypress/runner/cypress_runner.js:131315:12)\n    at <unknown> (http://localhost:34063/__cypress/runner/cypress_runner.js:131915:11)\n    at tryCatcher (http://localhost:34063/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:34063/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:34063/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:34063/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:34063/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:34063/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:34063/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:34063/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:34063/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://my-app/./cypress/e2e/spec.cy.js:5:7)\n\nFrom Node.js Internals:\n  Error: connect ECONNREFUSED 127.0.0.1:3000\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)",
-            "duration": 828,
-            "state": "failed",
+            "displayError": null,
+            "duration": 385,
+            "state": "passed",
             "title": [
               "LandingPageForm Initial State Tests",
               "should display initial state correctly"
@@ -158,12 +143,12 @@
           {
             "attempts": [
               {
-                "state": "skipped"
+                "state": "passed"
               }
             ],
             "displayError": null,
-            "duration": 0,
-            "state": "skipped",
+            "duration": 1188,
+            "state": "passed",
             "title": [
               "LandingPageForm Initial State Tests",
               "should update the state and navigate on form submission"
@@ -172,12 +157,12 @@
           {
             "attempts": [
               {
-                "state": "skipped"
+                "state": "passed"
               }
             ],
             "displayError": null,
-            "duration": 0,
-            "state": "skipped",
+            "duration": 1338,
+            "state": "passed",
             "title": [
               "LandingPageForm Initial State Tests",
               "should reset transactions and form data"
@@ -186,12 +171,12 @@
           {
             "attempts": [
               {
-                "state": "failed"
+                "state": "passed"
               }
             ],
-            "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://localhost:3000/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ECONNREFUSED 127.0.0.1:3000\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `ExpenseForm`\n    at <unknown> (http://localhost:34063/__cypress/runner/cypress_runner.js:131916:74)\n    at visitFailedByErr (http://localhost:34063/__cypress/runner/cypress_runner.js:131315:12)\n    at <unknown> (http://localhost:34063/__cypress/runner/cypress_runner.js:131915:11)\n    at tryCatcher (http://localhost:34063/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:34063/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:34063/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:34063/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:34063/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:34063/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:34063/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:34063/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:34063/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://my-app/./cypress/e2e/spec.cy.js:106:7)\n\nFrom Node.js Internals:\n  Error: connect ECONNREFUSED 127.0.0.1:3000\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)",
-            "duration": 687,
-            "state": "failed",
+            "displayError": null,
+            "duration": 1166,
+            "state": "passed",
             "title": [
               "ExpenseForm",
               "should render the form"
@@ -200,12 +185,12 @@
           {
             "attempts": [
               {
-                "state": "skipped"
+                "state": "passed"
               }
             ],
             "displayError": null,
-            "duration": 0,
-            "state": "skipped",
+            "duration": 4562,
+            "state": "passed",
             "title": [
               "ExpenseForm",
               "should handle form submission and update state"
@@ -215,12 +200,12 @@
         "video": null
       }
     ],
-    "startedTestsAt": "2024-07-21T19:39:46.526Z",
-    "totalDuration": 1585,
-    "totalFailed": 2,
-    "totalPassed": 0,
+    "startedTestsAt": "2024-07-21T20:24:30.252Z",
+    "totalDuration": 9874,
+    "totalFailed": 0,
+    "totalPassed": 5,
     "totalPending": 0,
-    "totalSkipped": 3,
+    "totalSkipped": 0,
     "totalSuites": 2,
     "totalTests": 5
   },
@@ -252,7 +237,7 @@
       "unmatched": 0,
       "updated": 0
     },
-    "startTime": 1721590803673,
+    "startTime": 1721593496539,
     "success": true,
     "testResults": [
       {
@@ -288,10 +273,50 @@
             "title": "should handle removeAllTransactions"
           }
         ],
-        "endTime": 1721590814417,
+        "endTime": 1721593507441,
         "message": "",
         "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/transactionSlice.test.js",
-        "startTime": 1721590808132,
+        "startTime": 1721593501396,
+        "status": "passed",
+        "summary": ""
+      },
+      {
+        "assertionResults": [
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle updateTotalExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateTotalExpense"
+          },
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle updateCategoricalExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateCategoricalExpense"
+          },
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle resetAllExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle resetAllExpense"
+          }
+        ],
+        "endTime": 1721593507441,
+        "message": "",
+        "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/expenseSlice.test.js",
+        "startTime": 1721593501395,
         "status": "passed",
         "summary": ""
       },
@@ -348,50 +373,10 @@
             "title": "should handle resetAllBudget"
           }
         ],
-        "endTime": 1721590814418,
+        "endTime": 1721593518622,
         "message": "",
         "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/userSlice.test.js",
-        "startTime": 1721590808133,
-        "status": "passed",
-        "summary": ""
-      },
-      {
-        "assertionResults": [
-          {
-            "ancestorTitles": [
-              "expense slice reducers"
-            ],
-            "failureMessages": [],
-            "fullName": "expense slice reducers should handle updateTotalExpense",
-            "location": null,
-            "status": "passed",
-            "title": "should handle updateTotalExpense"
-          },
-          {
-            "ancestorTitles": [
-              "expense slice reducers"
-            ],
-            "failureMessages": [],
-            "fullName": "expense slice reducers should handle updateCategoricalExpense",
-            "location": null,
-            "status": "passed",
-            "title": "should handle updateCategoricalExpense"
-          },
-          {
-            "ancestorTitles": [
-              "expense slice reducers"
-            ],
-            "failureMessages": [],
-            "fullName": "expense slice reducers should handle resetAllExpense",
-            "location": null,
-            "status": "passed",
-            "title": "should handle resetAllExpense"
-          }
-        ],
-        "endTime": 1721590828116,
-        "message": "",
-        "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/expenseSlice.test.js",
-        "startTime": 1721590813702,
+        "startTime": 1721593506217,
         "status": "passed",
         "summary": ""
       }
