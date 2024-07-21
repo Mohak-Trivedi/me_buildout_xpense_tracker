@@ -1,0 +1,294 @@
+{
+  "cypress": {
+    "browserName": "electron",
+    "browserPath": "",
+    "browserVersion": "118.0.5993.159",
+    "config": {
+      "projectRoot": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master",
+      "projectName": "xTracker-master",
+      "configFile": "cypress.config.js",
+      "isTextTerminal": true,
+      "animationDistanceThreshold": 5,
+      "arch": "x64",
+      "baseUrl": null,
+      "blockHosts": null,
+      "chromeWebSecurity": true,
+      "clientCertificates": [],
+      "defaultCommandTimeout": 4000,
+      "downloadsFolder": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\cypress\\downloads",
+      "env": {},
+      "execTimeout": 60000,
+      "experimentalCspAllowList": false,
+      "experimentalFetchPolyfill": false,
+      "experimentalInteractiveRunEvents": false,
+      "experimentalRunAllSpecs": false,
+      "experimentalMemoryManagement": false,
+      "experimentalModifyObstructiveThirdPartyCode": false,
+      "experimentalSkipDomainInjection": null,
+      "experimentalOriginDependencies": false,
+      "experimentalSourceRewriting": false,
+      "experimentalSingleTabRunMode": false,
+      "experimentalStudio": false,
+      "experimentalWebKitSupport": false,
+      "fileServerFolder": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master",
+      "fixturesFolder": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\cypress\\fixtures",
+      "excludeSpecPattern": "*.hot-update.js",
+      "includeShadowDom": false,
+      "keystrokeDelay": 0,
+      "modifyObstructiveCode": true,
+      "numTestsKeptInMemory": 0,
+      "platform": "win32",
+      "pageLoadTimeout": 60000,
+      "port": 62219,
+      "projectId": null,
+      "redirectionLimit": 20,
+      "reporter": "spec",
+      "reporterOptions": null,
+      "requestTimeout": 5000,
+      "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+      "resolvedNodeVersion": "20.10.0",
+      "responseTimeout": 30000,
+      "retries": {
+        "runMode": 0,
+        "openMode": 0
+      },
+      "screenshotOnRunFailure": true,
+      "screenshotsFolder": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\cypress\\screenshots",
+      "slowTestThreshold": 10000,
+      "scrollBehavior": "top",
+      "supportFile": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\cypress\\support\\e2e.js",
+      "taskTimeout": 60000,
+      "testIsolation": true,
+      "trashAssetsBeforeRuns": true,
+      "userAgent": null,
+      "video": false,
+      "videoCompression": false,
+      "videosFolder": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\cypress\\videos",
+      "viewportHeight": 660,
+      "viewportWidth": 1000,
+      "waitForAnimations": true,
+      "watchForFileChanges": false,
+      "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+      "browsers": [
+        {
+          "channel": "stable",
+          "displayName": "Chrome",
+          "family": "chromium",
+          "majorVersion": "126",
+          "name": "chrome",
+          "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+          "version": "126.0.6478.128"
+        },
+        {
+          "channel": "stable",
+          "displayName": "Edge",
+          "family": "chromium",
+          "majorVersion": "126",
+          "name": "edge",
+          "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+          "version": "126.0.2592.113"
+        },
+        {
+          "channel": "stable",
+          "displayName": "Electron",
+          "family": "chromium",
+          "majorVersion": 118,
+          "name": "electron",
+          "path": "",
+          "version": "118.0.5993.159"
+        }
+      ],
+      "cypressBinaryRoot": "C:\\Users\\trive\\AppData\\Local\\Cypress\\Cache\\13.13.0\\Cypress\\resources\\app",
+      "hosts": null,
+      "isInteractive": true,
+      "version": "13.13.0",
+      "testingType": "e2e",
+      "browser": null,
+      "cypressInternalEnv": "production"
+    },
+    "cypressVersion": "13.13.0",
+    "endedTestsAt": "2024-07-21T08:17:02.678Z",
+    "osName": "win32",
+    "osVersion": "10.0.22631",
+    "runs": [
+      {
+        "error": null,
+        "reporter": "spec",
+        "reporterStats": {
+          "suites": 2,
+          "tests": 5,
+          "passes": 5,
+          "pending": 0,
+          "failures": 0,
+          "start": "2024-07-21T08:16:52.166Z",
+          "end": "2024-07-21T08:17:02.681Z",
+          "duration": 10515
+        },
+        "screenshots": [],
+        "spec": {
+          "absolute": "C:/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/e2e/spec.cy.js",
+          "fileExtension": ".js",
+          "fileName": "spec",
+          "name": "spec.cy.js",
+          "relative": "cypress\\e2e\\spec.cy.js"
+        },
+        "stats": {
+          "duration": 10517,
+          "endedAt": "2024-07-21T08:17:02.678Z",
+          "failures": 0,
+          "passes": 5,
+          "pending": 0,
+          "skipped": 0,
+          "startedAt": "2024-07-21T08:16:52.161Z",
+          "suites": 2,
+          "tests": 5
+        },
+        "tests": [
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 382,
+            "state": "passed",
+            "title": [
+              "LandingPageForm Initial State Tests",
+              "should display initial state correctly"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 1253,
+            "state": "passed",
+            "title": [
+              "LandingPageForm Initial State Tests",
+              "should update the state and navigate on form submission"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 1453,
+            "state": "passed",
+            "title": [
+              "LandingPageForm Initial State Tests",
+              "should reset transactions and form data"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 1231,
+            "state": "passed",
+            "title": [
+              "ExpenseForm",
+              "should render the form"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 4658,
+            "state": "passed",
+            "title": [
+              "ExpenseForm",
+              "should handle form submission and update state"
+            ]
+          }
+        ],
+        "video": null
+      }
+    ],
+    "startedTestsAt": "2024-07-21T08:16:52.161Z",
+    "totalDuration": 10517,
+    "totalFailed": 0,
+    "totalPassed": 5,
+    "totalPending": 0,
+    "totalSkipped": 0,
+    "totalSuites": 2,
+    "totalTests": 5
+  },
+  "jest": {
+    "numFailedTestSuites": 3,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 0,
+    "numPassedTests": 0,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 3,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 3,
+    "numTotalTests": 0,
+    "openHandles": [],
+    "snapshot": {
+      "added": 0,
+      "didUpdate": false,
+      "failure": false,
+      "filesAdded": 0,
+      "filesRemoved": 0,
+      "filesRemovedList": [],
+      "filesUnmatched": 0,
+      "filesUpdated": 0,
+      "matched": 0,
+      "total": 0,
+      "unchecked": 0,
+      "uncheckedKeysByFile": [],
+      "unmatched": 0,
+      "updated": 0
+    },
+    "startTime": 1721478616818,
+    "success": false,
+    "testResults": [
+      {
+        "assertionResults": [],
+        "coverage": {},
+        "endTime": 1721478618385,
+        "message": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[1m\u001b[31mJest encountered an unexpected token\u001b[39m\u001b[22m\n\n    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.\n\n    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.\n\n    By default \"node_modules\" folder is ignored by transformers.\n\n    Here's what you can do:\n     • If you are trying to use ECMAScript Modules, see \u001b[4mhttps://jestjs.io/docs/ecmascript-modules\u001b[24m for how to enable it.\n     • If you are trying to use TypeScript, see \u001b[4mhttps://jestjs.io/docs/getting-started#using-typescript\u001b[24m\n     • To have some of your \"node_modules\" files transformed, you can specify a custom \u001b[1m\"transformIgnorePatterns\"\u001b[22m in your config.\n     • If you need a custom transformation specify a \u001b[1m\"transform\"\u001b[22m option in your config.\n     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the \u001b[1m\"moduleNameMapper\"\u001b[22m config option.\n\n    You'll find more details and examples of these config options in the docs:\n    \u001b[36mhttps://jestjs.io/docs/configuration\u001b[39m\n    For information about custom transformations, see:\n    \u001b[36mhttps://jestjs.io/docs/code-transformation\u001b[39m\n\n    \u001b[1m\u001b[31mDetails:\u001b[39m\u001b[22m\n\n    C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\src\\setupTests.js:7\n    import '@testing-library/jest-dom/extend-expect';\n    ^^^^^^\n\n    SyntaxError: Cannot use import statement outside a module\n\n      \u001b[2mat Runtime.createScriptFromCode (C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\u001b[22m../../../../../../xTracker-master/node_modules/jest-runtime/build/index.js\u001b[2m:1728:14)\u001b[22m\n",
+        "name": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\src\\__tests__\\expenseSlice.test.js",
+        "startTime": 1721478618385,
+        "status": "failed",
+        "summary": ""
+      },
+      {
+        "assertionResults": [],
+        "coverage": {},
+        "endTime": 1721478618385,
+        "message": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[1m\u001b[31mJest encountered an unexpected token\u001b[39m\u001b[22m\n\n    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.\n\n    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.\n\n    By default \"node_modules\" folder is ignored by transformers.\n\n    Here's what you can do:\n     • If you are trying to use ECMAScript Modules, see \u001b[4mhttps://jestjs.io/docs/ecmascript-modules\u001b[24m for how to enable it.\n     • If you are trying to use TypeScript, see \u001b[4mhttps://jestjs.io/docs/getting-started#using-typescript\u001b[24m\n     • To have some of your \"node_modules\" files transformed, you can specify a custom \u001b[1m\"transformIgnorePatterns\"\u001b[22m in your config.\n     • If you need a custom transformation specify a \u001b[1m\"transform\"\u001b[22m option in your config.\n     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the \u001b[1m\"moduleNameMapper\"\u001b[22m config option.\n\n    You'll find more details and examples of these config options in the docs:\n    \u001b[36mhttps://jestjs.io/docs/configuration\u001b[39m\n    For information about custom transformations, see:\n    \u001b[36mhttps://jestjs.io/docs/code-transformation\u001b[39m\n\n    \u001b[1m\u001b[31mDetails:\u001b[39m\u001b[22m\n\n    C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\src\\setupTests.js:7\n    import '@testing-library/jest-dom/extend-expect';\n    ^^^^^^\n\n    SyntaxError: Cannot use import statement outside a module\n\n      \u001b[2mat Runtime.createScriptFromCode (C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\u001b[22m../../../../../../xTracker-master/node_modules/jest-runtime/build/index.js\u001b[2m:1728:14)\u001b[22m\n",
+        "name": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\src\\__tests__\\transactionSlice.test.js",
+        "startTime": 1721478618385,
+        "status": "failed",
+        "summary": ""
+      },
+      {
+        "assertionResults": [],
+        "coverage": {},
+        "endTime": 1721478618385,
+        "message": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[1m\u001b[31mJest encountered an unexpected token\u001b[39m\u001b[22m\n\n    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.\n\n    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.\n\n    By default \"node_modules\" folder is ignored by transformers.\n\n    Here's what you can do:\n     • If you are trying to use ECMAScript Modules, see \u001b[4mhttps://jestjs.io/docs/ecmascript-modules\u001b[24m for how to enable it.\n     • If you are trying to use TypeScript, see \u001b[4mhttps://jestjs.io/docs/getting-started#using-typescript\u001b[24m\n     • To have some of your \"node_modules\" files transformed, you can specify a custom \u001b[1m\"transformIgnorePatterns\"\u001b[22m in your config.\n     • If you need a custom transformation specify a \u001b[1m\"transform\"\u001b[22m option in your config.\n     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the \u001b[1m\"moduleNameMapper\"\u001b[22m config option.\n\n    You'll find more details and examples of these config options in the docs:\n    \u001b[36mhttps://jestjs.io/docs/configuration\u001b[39m\n    For information about custom transformations, see:\n    \u001b[36mhttps://jestjs.io/docs/code-transformation\u001b[39m\n\n    \u001b[1m\u001b[31mDetails:\u001b[39m\u001b[22m\n\n    C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\src\\setupTests.js:7\n    import '@testing-library/jest-dom/extend-expect';\n    ^^^^^^\n\n    SyntaxError: Cannot use import statement outside a module\n\n      \u001b[2mat Runtime.createScriptFromCode (C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\u001b[22m../../../../../../xTracker-master/node_modules/jest-runtime/build/index.js\u001b[2m:1728:14)\u001b[22m\n",
+        "name": "C:\\Users\\trive\\Documents\\crioContent\\xTracker-master (2)\\xTracker-master\\src\\__tests__\\userSlice.test.js",
+        "startTime": 1721478618385,
+        "status": "failed",
+        "summary": ""
+      }
+    ],
+    "wasInterrupted": false
+  }
+}
