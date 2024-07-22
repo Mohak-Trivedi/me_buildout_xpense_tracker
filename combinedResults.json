@@ -39,7 +39,7 @@
       "numTestsKeptInMemory": 0,
       "platform": "linux",
       "pageLoadTimeout": 60000,
-      "port": 41099,
+      "port": 44581,
       "projectId": null,
       "redirectionLimit": 20,
       "reporter": "spec",
@@ -89,7 +89,7 @@
       "cypressInternalEnv": "production"
     },
     "cypressVersion": "13.13.1",
-    "endedTestsAt": "2024-07-21T20:24:40.126Z",
+    "endedTestsAt": "2024-07-22T05:21:23.049Z",
     "osName": "linux",
     "osVersion": "Ubuntu - ",
     "runs": [
@@ -102,9 +102,9 @@
           "passes": 5,
           "pending": 0,
           "failures": 0,
-          "start": "2024-07-21T20:24:30.258Z",
-          "end": "2024-07-21T20:24:40.130Z",
-          "duration": 9872
+          "start": "2024-07-22T05:21:13.146Z",
+          "end": "2024-07-22T05:21:23.054Z",
+          "duration": 9908
         },
         "screenshots": [],
         "spec": {
@@ -115,13 +115,13 @@
           "relative": "cypress/e2e/spec.cy.js"
         },
         "stats": {
-          "duration": 9874,
-          "endedAt": "2024-07-21T20:24:40.126Z",
+          "duration": 9909,
+          "endedAt": "2024-07-22T05:21:23.049Z",
           "failures": 0,
           "passes": 5,
           "pending": 0,
           "skipped": 0,
-          "startedAt": "2024-07-21T20:24:30.252Z",
+          "startedAt": "2024-07-22T05:21:13.140Z",
           "suites": 2,
           "tests": 5
         },
@@ -133,7 +133,7 @@
               }
             ],
             "displayError": null,
-            "duration": 385,
+            "duration": 413,
             "state": "passed",
             "title": [
               "LandingPageForm Initial State Tests",
@@ -147,7 +147,7 @@
               }
             ],
             "displayError": null,
-            "duration": 1188,
+            "duration": 1215,
             "state": "passed",
             "title": [
               "LandingPageForm Initial State Tests",
@@ -161,7 +161,7 @@
               }
             ],
             "displayError": null,
-            "duration": 1338,
+            "duration": 1336,
             "state": "passed",
             "title": [
               "LandingPageForm Initial State Tests",
@@ -175,7 +175,7 @@
               }
             ],
             "displayError": null,
-            "duration": 1166,
+            "duration": 1157,
             "state": "passed",
             "title": [
               "ExpenseForm",
@@ -189,7 +189,7 @@
               }
             ],
             "displayError": null,
-            "duration": 4562,
+            "duration": 4557,
             "state": "passed",
             "title": [
               "ExpenseForm",
@@ -200,8 +200,8 @@
         "video": null
       }
     ],
-    "startedTestsAt": "2024-07-21T20:24:30.252Z",
-    "totalDuration": 9874,
+    "startedTestsAt": "2024-07-22T05:21:13.140Z",
+    "totalDuration": 9909,
     "totalFailed": 0,
     "totalPassed": 5,
     "totalPending": 0,
@@ -237,7 +237,7 @@
       "unmatched": 0,
       "updated": 0
     },
-    "startTime": 1721593496539,
+    "startTime": 1721625700583,
     "success": true,
     "testResults": [
       {
@@ -273,50 +273,10 @@
             "title": "should handle removeAllTransactions"
           }
         ],
-        "endTime": 1721593507441,
+        "endTime": 1721625712043,
         "message": "",
         "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/transactionSlice.test.js",
-        "startTime": 1721593501396,
-        "status": "passed",
-        "summary": ""
-      },
-      {
-        "assertionResults": [
-          {
-            "ancestorTitles": [
-              "expense slice reducers"
-            ],
-            "failureMessages": [],
-            "fullName": "expense slice reducers should handle updateTotalExpense",
-            "location": null,
-            "status": "passed",
-            "title": "should handle updateTotalExpense"
-          },
-          {
-            "ancestorTitles": [
-              "expense slice reducers"
-            ],
-            "failureMessages": [],
-            "fullName": "expense slice reducers should handle updateCategoricalExpense",
-            "location": null,
-            "status": "passed",
-            "title": "should handle updateCategoricalExpense"
-          },
-          {
-            "ancestorTitles": [
-              "expense slice reducers"
-            ],
-            "failureMessages": [],
-            "fullName": "expense slice reducers should handle resetAllExpense",
-            "location": null,
-            "status": "passed",
-            "title": "should handle resetAllExpense"
-          }
-        ],
-        "endTime": 1721593507441,
-        "message": "",
-        "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/expenseSlice.test.js",
-        "startTime": 1721593501395,
+        "startTime": 1721625705480,
         "status": "passed",
         "summary": ""
       },
@@ -373,10 +333,50 @@
             "title": "should handle resetAllBudget"
           }
         ],
-        "endTime": 1721593518622,
+        "endTime": 1721625712046,
         "message": "",
         "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/userSlice.test.js",
-        "startTime": 1721593506217,
+        "startTime": 1721625705479,
+        "status": "passed",
+        "summary": ""
+      },
+      {
+        "assertionResults": [
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle updateTotalExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateTotalExpense"
+          },
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle updateCategoricalExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateCategoricalExpense"
+          },
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle resetAllExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle resetAllExpense"
+          }
+        ],
+        "endTime": 1721625724458,
+        "message": "",
+        "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/expenseSlice.test.js",
+        "startTime": 1721625710303,
         "status": "passed",
         "summary": ""
       }
